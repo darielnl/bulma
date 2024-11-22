@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit Academy - Dagdoelen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+</head>
+
+<body class="has-background-light">
+
+    <nav class="navbar is-dark">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://www.bit-academy.nl/">
+                <img src="bitlogo.png" alt="Bit Academy logo">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" data-target="navbarBasicExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">Home</a>
+                <a class="navbar-item">Documentation</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">More</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">About</a>
+                        <a class="navbar-item is-selected">Jobs</a>
+                        <a class="navbar-item">Contact</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">Report an issue</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary"><strong>Sign up</strong></a>
+                        <a class="button is-light">Log in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-centered">Doelen van vandaag</h1>
+            <table class="table is-fullwidth is-striped">
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Doel</th>
+                        <th>Starttijd</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ronald</td>
+                        <td>Database Beginner af</td>
+                        <td>08:30</td>
+                    </tr>
+                    <tr>
+                        <td>Gerard</td>
+                        <td>JavaScript Novice lvl 3</td>
+                        <td>09:24</td>
+                    </tr>
+                    <tr>
+                        <td>Donald</td>
+                        <td>Trial: PHP N maken</td>
+                        <td>09:00</td>
+                    </tr>
+                    <tr>
+                        <td>Kees</td>
+                        <td>HTML advanced lvl 5</td>
+                        <td>08:30</td>
+                    </tr>
+                    <tr>
+                        <td>Maart</td>
+                        <td>Database Advanced lvl 4</td>
+                        <td>09:11</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Stel jouw Dagdoel in</h2>
+            <form>
+                <div class="field">
+                    <label class="label">Naam:</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Vul je naam in">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Doel:</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Bijvoorbeeld: html beginner lvl 5">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">tijd:</label>
+                    <div class="control">
+                        <input class="input" type="time">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-link">Doel instellen</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Coache panel</h2>
+
+            <div class="box">
+                <p><strong>Student:</strong> Joep</p>
+                <p><strong>Doel:</strong> PHP Novice lvl 4</p>
+                <p><strong>Starttijd:</strong> 8:44</p>
+                <div class="buttons">
+                    <button class="button is-success">Goedkeuren</button>
+                    <button class="button is-danger">Afkeuren</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <p><strong>Student:</strong> Dora</p>
+                <p><strong>Doel:</strong> PHP Web af</p>
+                <p><strong>Starttijd:</strong> 8:37</p>
+                <div class="buttons">
+                    <button class="button is-success">Goedkeuren</button>
+                    <button class="button is-danger">Afkeuren</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer has-background-dark py-3 mt-5">
+        <div class="content has-text-centered has-text-white">
+            <p>
+                &copy; 2024 Bit Academy. Alle rechten voorbehouden.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
